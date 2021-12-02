@@ -170,4 +170,9 @@
 #define CONFIG_FSPI_QUAD_SUPPORT
 #define CONFIG_SYS_FSL_FSPI_AHB
 
+/* Android */
+#ifdef CONFIG_ANDROID_SUPPORT
+#include "phycore_imx8mp_android.h"
+#endif
+
 #endif /* __PHYCORE_IMX8MP_H */
